@@ -1,0 +1,27 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url('../images/siteStructure/RainbowStripes.png');
+}
+
+#headNav {
+    list-style-type: none;
+    height: 300px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    background-color: white;
+    background-image: url('../images/siteStructure/SmokingFoxBanner.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 600px;
+  }
