@@ -13,7 +13,7 @@ body {
     font-weight: bold;
     margin-bottom: 100px;
     background-color: white;
-    background-image: url('../images/siteStructure/SmokingFoxBanner.png'); 
+    background-image: url('../images/siteStructure/SmokingFoxBanner.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -24,4 +24,31 @@ body {
     margin-right: auto;
     width: 50%;
     min-width: 600px;
-  }
+}
+
+.header {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.navBox {
+    /* Write css for background boxes */
+}
+
+.featuredImage {
+    max-width: 80%;
+    max-height: 800px;
+}
