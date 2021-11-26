@@ -1,0 +1,32 @@
+.galleryBox {
+    padding-left: 150px;
+    padding-right: 65px;
+}
+
+.landscapeThumbnail {
+    width: 200px;
+    height: 135px;
+    margin: 15px;
+    padding-bottom: 65px;
+}
+
+.portraitThumbnail {
+    width: 135px;
+    height: 200px;
+    margin: 15px;
+    padding-left: 32.5px;
+    padding-right: 32.5px;
+    padding-bottom: 65px;
+}
+
+.squareThumbnail {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    padding-bottom: 65px;
+}
+
+.checkboxLabel {
+    font-size: 20px;
+    margin: 0 auto 0 150px;
+}
