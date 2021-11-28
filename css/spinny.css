@@ -1,0 +1,23 @@
+@media only screen and (min-width: 600px) {
+    @keyframes spinning {
+        from { transform: rotate(0deg) }
+        to { transform: rotate(360deg) }
+    }
+    
+    .spin {
+    animation-name: spinning;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    }
+
+    .foxLogo {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .foxLogo {
+        height: 120px;
+    }
+}
