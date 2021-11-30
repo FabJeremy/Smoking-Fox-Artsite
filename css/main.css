@@ -19,6 +19,12 @@ body {
     background-image: url('../images/siteStructure/RainbowStripes.png');
 }
 
+.contactMe {
+    padding-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #headNav {
     list-style-type: none;
     height: 300px;

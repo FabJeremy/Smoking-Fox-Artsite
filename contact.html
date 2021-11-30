@@ -45,3 +45,25 @@
             </ul>
         </aside>
     </div>
+
+    <main>
+        <div class="contactMe">
+        <h4>Contact us!  We're interested to hear feedback or requests.</h4>
+            <form onsubmit="return false" ></form>
+                <input type="text" placeholder="Enter your first name" id="firstName" />
+                <input type="text" placeholder="Enter your last name" id="lastName" />
+                <br><br>
+                <input type="radio" id="male" name="gender" value="male"> Male
+                <input type="radio" id="female" name="gender" value="female"> Female
+                <br><br>
+                <input type="email" placeholder="(Optional) Enter your email" id="email" />
+                <br><br>
+                <span>What is your question/concern?</span>
+                <br>
+                <textarea id="question" rows="4"></textarea>
+                <br><br>
+                <button onclick="sendContact();">Send contact</button>
+
+            </form>
+        </div>
+    </main>
